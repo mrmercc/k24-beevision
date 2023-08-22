@@ -1,0 +1,120 @@
+@import "../../assets/styles/variables";
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $light-main;
+  width: 320px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height:100%;
+  padding:0 24px;
+
+  .external-user-message {
+    font-family: 'Poppins', sans-serif;
+    padding:12px;
+    background-color:$dark-light-800;
+    margin-top: 10px;
+    border-radius: 6px;
+    color:$light-dark-500;
+    .highlight {
+      color:$light-main;
+      font-weight: 600;
+    }
+  }
+
+  .welcome-brand {
+    .brand {
+      border-radius: 8px;
+      padding:12px;
+      margin-top: 24px;
+      background-color: $light-dark-100;
+      a {
+        text-decoration: none;
+        color:$dark-light-500;
+        font-weight: 500;
+        font-size:14px;
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+    .welcome {
+      margin-top: 10px;
+      font-size:14px;
+      text-align: center;
+      i {
+        font-size: 18px;
+        vertical-align: middle;
+        margin-right: 4px;
+      }
+    }
+    .highlight { color:$secondary-dark-300; }
+  }
+
+  .menu {
+    margin-top: auto;
+    margin-bottom: auto;
+    .menu-section {
+      margin:32px 0;
+      .section-label {
+        font-size:12px;
+        color:$dark-light-100;
+        letter-spacing: 0px;
+        line-height: normal;
+        margin-bottom: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color:$dark-light-400;
+        transition: color 300ms linear;
+        display: block;
+        position: relative;
+        font-size:14px;
+        // padding-left: 10px;
+        margin:8px 0;
+
+        .item-count-badge {
+          position: absolute;
+          right:0;
+          font-size: 12px;
+          padding:6px;
+          text-align: center;
+          border-radius: 6px;
+          background-color:$light-dark-100;
+          color:$dark-light-600;
+          transition: all 300ms linear;
+          width: 32px;
+        }
+
+        .nav-icon {
+          font-size:22px;
+          vertical-align: bottom;
+          margin-right: 2px;
+        }
+
+        &:hover {
+          color:$primary-dark-100;
+
+          .item-count-badge {
+            background-color: $primary-dark-200;
+            color:$light-main;
+          }
+        }
+
+        &.active {
+          color:$primary-dark-100;
+          .item-count-badge {
+            background-color: $primary-dark-100;
+            color:$light-main;
+          }
+        }
+
+      }
+
+    }
+  }
+
+}

@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  authApiBaseURL: 'https://c3cqa5ubnk.execute-api.eu-central-1.amazonaws.com/development',
+  apiBaseURL: 'https://gdsa7xsl0h.execute-api.eu-central-1.amazonaws.com/development',
+  gtipLookupBaseURL: 'https://www.oaib.org.tr/tr',
+  beeVisionBaseURL: 'http://192.168.1.39:80/beevisionservice'
 };
 
 /*

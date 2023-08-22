@@ -1,0 +1,42 @@
+<div class="sidebar">
+
+  <div class="welcome-brand">
+    <div class="brand">
+      <a routerLink="/">
+        <img src="../../../assets/img/k24-logo.svg" />
+        Kargo 24 BeeVision Portal
+      </a>
+    </div>
+    <div class="welcome">
+      <i class="ph ph-sparkle"></i>
+      Hoş Geldin, <span class="highlight">{{ userInfo?.customerName }}</span>
+    </div>
+  </div>
+
+  <nav class="menu">
+
+    <section class="menu-section">
+      <h4 class="section-label">Gönderiler</h4>
+      <a routerLinkActive="active" routerLink="/results">
+        <i class="nav-icon ph ph-package"></i>
+        BeeVision Ham Gönderiler
+        <span class="item-count-badge">100</span>
+      </a>
+    </section>
+
+  </nav>
+
+  <nav class="menu bottom-aligned">
+    <section class="menu-section">
+      <a href="javascript:;" (click)="onLogout()">
+        <i class="nav-icon ph ph-sign-out"></i>
+        Güvenli Çıkış
+      </a>
+    </section>
+  </nav>
+
+  <div class="version-info">
+
+  </div>
+
+</div>

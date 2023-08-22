@@ -1,0 +1,172 @@
+[
+  {
+    "code": "BG",
+    "en": "Bag",
+    "tr": "Çanta"
+  },
+  {
+    "code": "BA",
+    "en": "Barrel",
+    "tr": "Varil"
+  },
+  {
+    "code": "BOX",
+    "en": "Box",
+    "tr": "Kutu"
+  },
+  {
+    "code": "BH",
+    "en": "Bunch",
+    "tr": "Deste"
+  },
+  {
+    "code": "BE",
+    "en": "Bundle",
+    "tr": "Demet"
+  },
+  {
+    "code": "CI",
+    "en": "Canister",
+    "tr": "Bidon"
+  },
+  {
+    "code": "CT",
+    "en": "Carton",
+    "tr": "Karton"
+  },
+  {
+    "code": "CS",
+    "en": "Case",
+    "tr": "Kasa"
+  },
+  {
+    "code": "CM",
+    "en": "Centimeter",
+    "tr": "Santimetre"
+  },
+  {
+    "code": "CON",
+    "en": "Container",
+    "tr": "Konteynır"
+  },
+  {
+    "code": "CR",
+    "en": "Crate",
+    "tr": "Sandık"
+  },
+  {
+    "code": "DOZ",
+    "en": "Dozen",
+    "tr": "Düzine"
+  },
+  {
+    "code": "EA",
+    "en": "Each",
+    "tr": "Her Biri"
+  },
+  {
+    "code": "NMB",
+    "en": "Each (CA)",
+    "tr": "Her Biri (CA)"
+  },
+  {
+    "code": "EN",
+    "en": "Envelope",
+    "tr": "Zarf"
+  },
+  {
+    "code": "FT",
+    "en": "Foot",
+    "tr": "Foot ölçüsü"
+  },
+  {
+    "code": "KG",
+    "en": "Kilogram",
+    "tr": "Kilogram"
+  },
+  {
+    "code": "KGS",
+    "en": "Kilograms",
+    "tr": "Kilogram"
+  },
+  {
+    "code": "L",
+    "en": "Liter",
+    "tr": "Litre"
+  },
+  {
+    "code": "M",
+    "en": "Meter",
+    "tr": "Metre"
+  },
+  {
+    "code": "PK",
+    "en": "Package",
+    "tr": "Paket"
+  },
+  {
+    "code": "PA",
+    "en": "Packet",
+    "tr": "Paket"
+  },
+  {
+    "code": "PRS",
+    "en": "Pairs",
+    "tr": "Çift"
+  },
+  {
+    "code": "PAL",
+    "en": "Pallet",
+    "tr": "Palet"
+  },
+  {
+    "code": "PCS",
+    "en": "Pieces",
+    "tr": "Adet"
+  },
+  {
+    "code": "LB",
+    "en": "Pound",
+    "tr": "Pound ölçüsü"
+  },
+  {
+    "code": "PF",
+    "en": "Proof Liter",
+    "tr": "Kanıt litre"
+  },
+  {
+    "code": "ROL",
+    "en": "Roll",
+    "tr": "Rulo"
+  },
+  {
+    "code": "SET",
+    "en": "Set",
+    "tr": "Set"
+  },
+  {
+    "code": "SME",
+    "en": "Square Meter",
+    "tr": "Metrekare"
+  },
+  {
+    "code": "SYD",
+    "en": "Square Yard",
+    "tr": "Yardakare"
+  },
+  {
+    "code": "TU",
+    "en": "Tube",
+    "tr": "Tüp"
+  },
+  {
+    "code": "YD",
+    "en": "Yard",
+    "tr": "Yarda"
+  },
+  {
+    "code": "OTH",
+    "en": "Other",
+    "tr": "Diğer"
+  }
+]

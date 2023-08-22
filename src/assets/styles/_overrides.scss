@@ -1,0 +1,53 @@
+/*
+  Bootstrap Overrides
+*/
+
+$border-radius: 4px;
+$min-contrast-ratio: 3.5;
+
+$alert-bg-scale:                -10%;
+$alert-border-scale:            -10%;
+$alert-color-scale:             10%;
+
+
+$input-padding-y:                       12px;
+$input-padding-x:                       14px;
+$input-font-family:                     'Poppins', sans-serif;
+
+$input-bg:                              #E6ECEF;
+$input-color:                           #7B7B7F;
+$input-border-color:                    #7B7B7F;
+$input-border-width:                    0;
+
+$input-border-radius:                   4px;
+$input-border-radius-sm:                6px;
+$input-border-radius-lg:                8px;
+
+.accordion {
+  --bs-accordion-btn-bg:blue;
+  background: unset;
+  .accordion-item {
+    background: unset;
+    border:unset !important;
+  }
+}
+
+.accordion-body {
+  padding: 10px 50px 10px 80px !important;
+}
+
+.accordion-button {
+  background-color: unset !important;
+}
+
+
+.accordion-button:not(.collapsed) {
+  color:#FF5252 !important;
+  background-color: transparent !important;
+  .step-header {
+    .step-count {
+      background-color: #FF5252 !important;
+      color:#fff !important;
+    }
+  }
+}

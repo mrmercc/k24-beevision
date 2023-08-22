@@ -1,0 +1,38 @@
+<div class="auth-page">
+  <div class="auth-form-container">
+
+    <div class="logo">
+      <img src="../../../assets/img/k24-logo.png" alt="Kargo 24 Web Portal" />
+    </div>
+
+    <div class="auth-form">
+      <h4>Giriş Yap</h4>
+
+      <form (ngSubmit)="doLogin()" [formGroup]="loginForm">
+        <div class="form-controls">
+          <div class="input-line">
+            <i class="icon-append ph ph-user"></i>
+            <input type="text" placeholder="E-mail" class="form-control" formControlName="username" />
+          </div>
+          <div class="input-line">
+            <i class="icon-append ph ph-asterisk"></i>
+            <input type="password" placeholder="Şifre" class="form-control" #passwordElement formControlName="password" />
+            <i class="icon-prepend ph ph-eye" (click)="togglePassword()"></i>
+          </div>
+        </div>
+        <div class="forgot-pw text-end mb-2">
+          Şifremi Unuttum
+        </div>
+        <div class="d-grid gap-2 mt-4">
+          <button type="submit" [disabled]="!loginForm.valid" class="btn btn-primary btn-block">
+            Giriş Yap
+          </button>
+        </div>
+      </form>
+
+    </div>
+
+  </div>
+  <div class="page-bg"></div>
+
+</div>

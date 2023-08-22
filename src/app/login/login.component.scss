@@ -1,0 +1,105 @@
+@import "../../assets/styles/variables";
+
+.auth-page {
+  width: 100%;
+  height:100%;
+
+  background-color: $light-1000;
+
+  display: flex;
+  flex-direction: row;
+
+  .auth-form-container {
+    width:25%;
+    // background-color: #F4F7F8;
+    padding:0 0 0 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .auth-form {
+      h4 { color:#0F0E16; font-size: 20px; font-weight: 500; }
+    }
+
+    .logo {
+      margin-bottom: 80px;
+    }
+
+    .form-controls {
+      margin:20px 0;
+      .input-line { position: relative; margin-bottom: 14px; }
+      .form-control {
+        /* background-color: #E6ECEF;
+        border:1px solid #E6ECEF;
+        padding:12px 0 12px 48px;
+        border-radius: 10px; */
+        border-radius: 12px;
+        background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+        padding:12px 0 12px 48px;
+        height:60px;
+        border:1px solid transparent;
+
+        /* Base shadow */
+        box-shadow: 0px 4px 20px 4px rgba(0, 0, 0, 0.06);
+        &:hover {
+          border:1px solid $primary-light-200;
+        }
+
+        &:focus {
+          box-shadow: 0px 4px 20px 4px rgba(255, 82, 82, 0.23);
+        }
+
+      }
+
+      .icon-append {
+        position: absolute;
+        color: #7B7B7F;
+        top: 20px;
+        left: 20px;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .icon-prepend {
+        color:#7B7B7F;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+    }
+
+    .forgot-pw {
+      font-size: 14px;
+      color:#7B7B7F;
+    }
+
+    .btn-primary {
+      padding:10px 10px;
+      border-radius: 10px;
+      color:$light-main;
+    }
+
+
+
+  }
+
+  .page-bg {
+    background: url("../../assets/img/auth-page-vector.svg") no-repeat;
+    flex: 1 0 auto;
+    background-position: 40% 68%;
+    background-size: 60%;
+  }
+
+}
+
+
+@media only screen and (max-width: 1920px) {
+  .auth-page {
+    .auth-form-container {
+      padding: 0 0 0 120px;
+    }
+  }
+}

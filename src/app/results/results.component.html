@@ -1,0 +1,54 @@
+<section class="dashboard-page-wrapper">
+
+  <app-sidebar></app-sidebar>
+
+  <div class="dashboard-page">
+
+    <div class="dashboard-content">
+
+      <div class="widget-container">
+        <div class="widget w-100">
+          <div class="body light-shadow">
+
+            <h5>Beevision Gönderileri</h5>
+
+            <button type="button" class="btn btn-success" (click)="prepareResultsToBulkUpdate()">
+              Beevision Gönderilerini Hazırla
+            </button>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th># MeasurementId</th>
+                  <th>Genişlik</th>
+                  <th>Yükseklik</th>
+                  <th>Uzunluk</th>
+                  <th>Ağırlık</th>
+                  <th>Barkod No</th>
+                  <th>Tarih/Saat</th>
+                  <th>Operator</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let result of results">
+                  <td> {{ result.MeasurementID }} </td>
+                  <td> {{ result.Width | number: '0.00' }} </td>
+                  <td> {{ result.Height | number: '0.00' }} </td>
+                  <td> {{ result.Length | number: '0.00' }} </td>
+                  <td> {{ result.Weight | number: '0.00' }} </td>
+                  <td> {{ result.Barcode }} </td>
+                  <td> {{ result.Date + ' - ' + result.Time }} </td>
+                  <td> {{ result.Operator }} </td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>

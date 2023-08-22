@@ -1,0 +1,112 @@
+[
+  {
+    "first_letter": "T",
+    "state_name": "Alberta",
+    "state_code": "AB"
+  },
+  {
+    "first_letter": "V",
+    "state_name": "British Columbia",
+    "state_code": "BC"
+  },
+  {
+    "first_letter": "R",
+    "state_name": "Manitoba",
+    "state_code": "MB"
+  },
+  {
+    "first_letter": "E",
+    "state_name": "New Brunswick",
+    "state_code": "NB"
+  },
+  {
+    "first_letter": "A",
+    "state_name": "Newfoundland and Labrador",
+    "state_code": "NL"
+  },
+  {
+    "first_letter": "B",
+    "state_name": "Nova Scotia",
+    "state_code": "NS"
+  },
+  {
+    "first_letter": "N",
+    "state_name": "Ontario",
+    "state_code": "ON"
+  },
+  {
+    "first_letter": "C",
+    "state_name": "Prince Edward Island",
+    "state_code": "PE"
+  },
+  {
+    "first_letter": "G",
+    "state_name": "Quebec",
+    "state_code": "QC"
+  },
+  {
+    "first_letter": "S",
+    "state_name": "Saskatchewan",
+    "state_code": "SK"
+  },
+  {
+    "first_letter": "Y",
+    "state_name": "Yukon",
+    "state_code": "YT"
+  },
+  {
+    "first_letter": "X0A",
+    "state_name": "Nunavut",
+    "state_code": "NU"
+  },
+  {
+    "first_letter": "X0B",
+    "state_name": "Nunavut",
+    "state_code": "NU"
+  },
+  {
+    "first_letter": "X0C",
+    "state_name": "Nunavut",
+    "state_code": "NU"
+  },
+  {
+    "first_letter": "X0E",
+    "state_name": "Northwest Territory",
+    "state_code": "NT"
+  },
+  {
+    "first_letter": "X0G",
+    "state_name": "Northwest Territory",
+    "state_code": "NT"
+  },
+  {
+    "first_letter": "X1A",
+    "state_name": "Northwest Territory",
+    "state_code": "NT"
+  },
+  {
+    "first_letter": "H",
+    "state_name": "Montreal",
+    "state_code": "QC"
+  },
+  {
+    "first_letter": "J",
+    "state_name": "Coaticook",
+    "state_code": "QC"
+  },
+  {
+    "first_letter": "K",
+    "state_name": "Ottawa",
+    "state_code": "ON"
+  },
+  {
+    "first_letter": "L",
+    "state_name": "Port Hope",
+    "state_code": "ON"
+  },
+  {
+    "first_letter": "P",
+    "state_name": "North Bay",
+    "state_code": "ON"
+  }
+]
